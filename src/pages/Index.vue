@@ -3,24 +3,19 @@
     <q-form @submit.prevent="setAnswer" class="flex flex-center"> 
       <div class="q-pa-md">
         <q-btn-toggle 
-        style="width: 40vh"
-          class="column"
-          v-model="shape"
-          toggle-color="primary"
+          class="column answer-form"
+          v-model="answer"
+          toggle-color="positive"
           :options="[
             {label: 'Australia', value: 'Australia'},
-            {label: 'Madagaskar', value: 'Madagaskar'},
-            {label: 'China', value: 'China'},
-            {label: 'Poland', value: 'Poland'}
+            {label: 'Austria', value: 'Austria'},
+            {label: 'Azerbaijan', value: 'Azerbaijan'},
+            {label: 'Albania', value: 'Albania'}
           ]"
         />
 
-        <!-- <div>
-          Your selection is: <strong>{{ shape }}</strong>
-        </div> -->
-
         <div class="q-mt-md">
-          <q-btn label="Submit" type="submit" color="primary"/>
+          <q-btn label="Submit" type="submit" color="secondary"/>
         </div>
       </div>
 
@@ -33,13 +28,25 @@ export default {
   name: 'PageIndex',
   data() {
     return {
-      shape: ''
+      answer: '',
+      countries: [
+        { id: 1, name: 'Australia', continent: 'Australia'},
+        { id: 2, name: 'Austria', continent: 'Europe'},
+        { id: 3, name: 'Azerbaijan', continent: 'Asia'},
+        { id: 4, name: 'Albania', continent: 'Europe'}
+      ]
     }
   },
   methods: {
     setAnswer() {
-      console.log(this.shape)
+      console.log(this.answer)
     }
   }
 }
 </script>
+
+<style lang="scss">
+  .answer-form {
+    width: 40vh
+  }
+</style>
