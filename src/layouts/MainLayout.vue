@@ -12,19 +12,18 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          Guess the Flag App
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
 
     <q-drawer
-      v-model="leftDrawerOpen"
-      show-if-above
-      bordered
-      content-class="bg-grey-1"
-    >
+        v-model="leftDrawerOpen"
+        show-if-above
+        bordered
+        content-class="bg-grey-1"
+      >
       <q-list>
         <q-item-label
           header
@@ -43,11 +42,12 @@
     <q-page-container>
       <router-view />
     </q-page-container>
-    <q-footer elevated class="bg-grey-8 text-white">
+
+    <q-footer elevated class="bg-purple text-white">
       <q-toolbar>
         <q-tabs
           v-model="tab"
-          class="text-teal"
+          class="bg-purple text-white"
         >
           <q-tab name="mails" icon="mail" label="Mails" />
           <q-tab name="alarms" icon="alarm" label="Alarms" />
@@ -73,40 +73,22 @@ export default {
       leftDrawerOpen: false,
       essentialLinks: [
         {
-          title: 'Docs',
-          caption: 'quasar.dev',
-          icon: 'school',
-          link: 'https://quasar.dev'
+          title: 'Settings',
+          caption: 'settings',
+          icon: 'settings',
+          link: '../pages/Settings'
         },
         {
           title: 'Github',
-          caption: 'github.com/quasarframework',
+          caption: 'github.com/vladgaranich1993',
           icon: 'code',
-          link: 'https://github.com/quasarframework'
+          link: 'https://github.com/vladgaranich1993'
         },
         {
           title: 'Discord Chat Channel',
           caption: 'chat.quasar.dev',
           icon: 'chat',
           link: 'https://chat.quasar.dev'
-        },
-        {
-          title: 'Forum',
-          caption: 'forum.quasar.dev',
-          icon: 'record_voice_over',
-          link: 'https://forum.quasar.dev'
-        },
-        {
-          title: 'Twitter',
-          caption: '@quasarframework',
-          icon: 'rss_feed',
-          link: 'https://twitter.quasar.dev'
-        },
-        {
-          title: 'Facebook',
-          caption: '@QuasarFramework',
-          icon: 'public',
-          link: 'https://facebook.quasar.dev'
         }
       ]
     }
