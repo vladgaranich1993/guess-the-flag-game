@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
+  <q-layout view="hHh lpR fFf">
     <q-header elevated>
       <q-toolbar>
         <q-btn
@@ -43,6 +43,18 @@
     <q-page-container>
       <router-view />
     </q-page-container>
+    <q-footer elevated class="bg-grey-8 text-white">
+      <q-toolbar>
+        <q-tabs
+          v-model="tab"
+          class="text-teal"
+        >
+          <q-tab name="mails" icon="mail" label="Mails" />
+          <q-tab name="alarms" icon="alarm" label="Alarms" />
+          <q-tab name="movies" icon="movie" label="Movies" />
+        </q-tabs>
+      </q-toolbar>
+    </q-footer>
   </q-layout>
 </template>
 
