@@ -5,7 +5,7 @@
       <div class="q-pa-md">
         <div class="col-4">
         <q-img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/2000px-Flag_of_Albania.svg.png"
+          :src="flags[0].url"
           :ratio="16/9"
         />
       </div> 
@@ -36,12 +36,24 @@ export default {
         { id: 2, label: 'Austria', value: 'Austria', continent: 'Europe'},
         { id: 3, label: 'Azerbaijan', value: 'Azerbaijan', continent: 'Asia'},
         { id: 4, label: 'Albania', value: 'Albania', continent: 'Europe'}
+      ],
+      flags: [
+        { 
+          id: 1, 
+          url: 'https://cdn.webshopapp.com/shops/94414/files/53448798/australia-flag-icon-free-download.jpg', 
+          label: 'Australia', 
+          continent: 'Australia' 
+        }
       ]
     }
   },
   methods: {
     setAnswer() {
-      console.log(this.answer)
+      if(this.answer == this.flags[0].label) {
+        console.log('Correct!')
+      } else {
+        console.log('Incorrect')
+      }
     }
   }
 }
