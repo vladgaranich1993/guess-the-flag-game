@@ -1,6 +1,7 @@
 <template>
   <q-item
     clickable
+    exact
     :to="link"
   >
     <q-item-section

@@ -29,7 +29,7 @@
           header
           class="text-grey-8"
         >
-          Essential Links
+  
         </q-item-label>
         <EssentialLink
           v-for="link in essentialLinks"
@@ -43,17 +43,17 @@
       <router-view />
     </q-page-container>
 
-    <q-footer elevated class="bg-purple text-white">
-      <q-toolbar>
-        <q-tabs
-          v-model="tab"
-          class="bg-purple text-white"
-        >
-          <q-tab name="mails" icon="mail" label="Mails" />
-          <q-tab name="alarms" icon="alarm" label="Alarms" />
-          <q-tab name="movies" icon="movie" label="Movies" />
-        </q-tabs>
-      </q-toolbar>
+     <q-footer>
+      <q-tabs>
+        <q-route-tab 
+          v-for="tab in essentialLinks" 
+          :key="tab.title" 
+          :icon="tab.icon" 
+          :to="tab.link"
+          :label="tab.title"
+          exact
+        />
+      </q-tabs>
     </q-footer>
   </q-layout>
 </template>
@@ -83,12 +83,6 @@ export default {
           caption: 'settings',
           icon: 'settings',
           link: '/settings'
-        },
-        {
-          title: 'Github',
-          caption: 'github.com/vladgaranich1993',
-          icon: 'code',
-          link: 'github.com/vladgaranich1993'
         }
       ]
     }
