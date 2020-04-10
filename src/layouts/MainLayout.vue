@@ -73,22 +73,22 @@ export default {
       leftDrawerOpen: false,
       essentialLinks: [
         {
+          title: 'Play',
+          caption: 'to game screen',
+          icon: 'public',
+          link: '/'
+        },
+        {
           title: 'Settings',
           caption: 'settings',
           icon: 'settings',
-          link: '../pages/Settings'
+          link: '/settings'
         },
         {
           title: 'Github',
           caption: 'github.com/vladgaranich1993',
           icon: 'code',
-          link: 'https://github.com/vladgaranich1993'
-        },
-        {
-          title: 'Discord Chat Channel',
-          caption: 'chat.quasar.dev',
-          icon: 'chat',
-          link: 'https://chat.quasar.dev'
+          link: 'github.com/vladgaranich1993'
         }
       ]
     }
