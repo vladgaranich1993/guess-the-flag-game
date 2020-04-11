@@ -5,7 +5,7 @@
       <div class="q-pa-md">
         <div class="col-4">
         <q-img
-          :src="flags[0].url"
+          :src="selectedFlag.url"
           :ratio="16/9"
         />
       </div> 
@@ -31,6 +31,7 @@ export default {
   data() {
     return {
       answer: '',
+      selectedFlag: '',
       countries: [
         { id: 1, label: 'Australia', value: 'Australia', continent: 'Australia'},
         { id: 2, label: 'Austria', value: 'Austria', continent: 'Europe'},
@@ -43,18 +44,40 @@ export default {
           url: 'https://cdn.webshopapp.com/shops/94414/files/53448798/australia-flag-icon-free-download.jpg', 
           label: 'Australia', 
           continent: 'Australia' 
+        },
+        { 
+          id: 2, 
+          url: 'https://cdn.countryflags.com/thumbs/austria/flag-400.png', 
+          label: 'Austria', 
+          continent: 'Austria' 
+        },
+        { 
+          id: 3, 
+          url: 'https://cdn.webshopapp.com/shops/94414/files/53480562/azerbaijan-flag-icon-free-download.jpg', 
+          label: 'Azerbaijan', 
+          continent: 'Asia' 
+        },
+        { 
+          id: 4, 
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/2000px-Flag_of_Albania.svg.png', 
+          label: 'Albania', 
+          continent: 'Europe' 
         }
-      ]
+      ],
     }
   },
   methods: {
     setAnswer() {
-      if(this.answer == this.flags[0].label) {
+      if(this.answer == this.selectedFlag.label) {
         console.log('Correct!')
       } else {
         console.log('Incorrect')
       }
     }
+  },
+  created() {
+    const idx = Math.floor(Math.random() * this.countries.length);
+    this.selectedFlag = this.flags[idx];
   }
 }
 </script>
