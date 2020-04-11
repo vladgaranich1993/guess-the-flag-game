@@ -41,7 +41,7 @@
       <router-view />
     </q-page-container>
 
-     <q-footer>
+     <q-footer class="footer">
       <q-tabs>
         <q-route-tab 
           v-for="tab in essentialLinks" 
@@ -87,3 +87,11 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+  .footer {
+    @media(min-width: 1024px) {
+      display: none;
+    }
+  }
+</style>
