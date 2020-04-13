@@ -430,6 +430,104 @@ export default {
           value: 'India',
           continent: 'Asia',
           url: 'https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_India.png'
+        },
+        {
+          id: 57,
+          label: 'Indonesia',
+          value: 'Indonesia',
+          continent: 'Asia',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54029380/indonesia-flag-icon-free-download.jpg'
+        },
+        {
+          id: 58,
+          label: 'Jordan',
+          value: 'Jordan',
+          continent: 'Asia',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/1280px-Flag_of_Jordan.svg.png'
+        },
+        {
+          id: 59,
+          label: 'Iraq',
+          value: 'Iraq',
+          continent: 'Asia',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54030706/iraq-flag-icon-free-download.jpg'
+        },
+        {
+          id: 60,
+          label: 'Iran',
+          value: 'Iran',
+          continent: 'Asia',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54029446/iran-flag-icon-free-download.jpg'
+        },
+        {
+          id: 61,
+          label: 'Republic of Ireland',
+          value: 'Republic of Ireland',
+          continent: 'Europe',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/2000px-Flag_of_Ireland.svg.png'
+        },
+        {
+          id: 62,
+          label: 'Iceland',
+          value: 'Iceland',
+          continent: 'Europe',
+          url: 'https://cdn.countryflags.com/thumbs/iceland/flag-400.png'
+        },
+        {
+          id: 63,
+          label: 'Spain',
+          value: 'Spain',
+          continent: 'Europe',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54944160/spain-flag-icon-free-download.jpg'
+        },
+        {
+          id: 64,
+          label: 'Italy',
+          value: 'Italy',
+          continent: 'Europe',
+          url: 'https://cdn.countryflags.com/thumbs/italy/flag-400.png'
+        },
+        {
+          id: 65,
+          label: 'Yemen',
+          value: 'Yemen',
+          continent: 'Asia',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Yemen.svg/1280px-Flag_of_Yemen.svg.png'
+        },
+        {
+          id: 66,
+          label: 'Cape Verde',
+          value: 'Cape Verde',
+          continent: 'Africa',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Cape_Verde.svg/2000px-Flag_of_Cape_Verde.svg.png'
+        },
+        {
+          id: 67,
+          label: 'Kazakhstan',
+          value: 'Kazakhstan',
+          continent: 'Asia',
+          url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQdHnKSBEUOzIFsFujQNPAHAj7Re4hCSeOeZhhzy4zqLZds1jN2&usqp=CAU'
+        },
+        {
+          id: 68,
+          label: 'Cambodia',
+          value: 'Cambodia',
+          continent: 'Asia',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/53596646/cambodia-flag-icon-free-download.jpg'
+        },
+        {
+          id: 69,
+          label: 'Cameroon',
+          value: 'Cameroon',
+          continent: 'Africa',
+          url: 'https://cdn10.bigcommerce.com/s-ey7tq/products/3136/images/18877/cameroon-flag__55015.1575478846.1280.1280.jpg?c=2'
+        },
+        {
+          id: 70,
+          label: 'Canada',
+          value: 'Canada',
+          continent: 'America',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Canada.svg/2000px-Flag_of_Canada.svg.png'
         }
       ]
     }
