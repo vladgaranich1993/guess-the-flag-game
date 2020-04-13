@@ -41,18 +41,7 @@
       <router-view />
     </q-page-container>
 
-     <q-footer class="footer">
-      <q-tabs>
-        <q-route-tab 
-          v-for="tab in footerLinks" 
-          :key="tab.title" 
-          :icon="tab.icon" 
-          :to="tab.link"
-          :label="tab.title"
-          exact
-        />
-      </q-tabs>
-    </q-footer>
+    
   </q-layout>
 </template>
 
@@ -87,20 +76,6 @@ export default {
           caption: 'About this game',
           icon: 'info',
           link: '/about'
-        }
-      ],
-      footerLinks: [
-        {
-          title: 'Play',
-          caption: 'to game screen',
-          icon: 'public',
-          link: '/'
-        },
-        {
-          title: 'Settings',
-          caption: 'settings',
-          icon: 'settings',
-          link: '/settings'
         }
       ]
     }
