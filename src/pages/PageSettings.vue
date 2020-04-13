@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex flex-center">
-    settings
+    <h3>settings will update soon!</h3>
   </q-page>
 </template>
 
