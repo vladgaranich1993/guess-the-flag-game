@@ -172,8 +172,8 @@ export default {
         },
         {
           id: 20,
-          label: 'Bolgaria',
-          value: 'Bolgaria',
+          label: 'Bulgaria',
+          value: 'Bulgaria',
           continent: 'Europe',
           url: 'https://cdn.countryflags.com/thumbs/bulgaria/flag-400.png'
         },
