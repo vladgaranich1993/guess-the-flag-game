@@ -52,7 +52,8 @@ module.exports = function (ctx) {
         'QItemLabel',
         'QBtnToggle',
         'QBtnGroup',
-        'QImg'
+        'QImg',
+        'QBanner'
       ],
       directives: [],
 

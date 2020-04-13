@@ -44,7 +44,7 @@
      <q-footer class="footer">
       <q-tabs>
         <q-route-tab 
-          v-for="tab in essentialLinks" 
+          v-for="tab in footerLinks" 
           :key="tab.title" 
           :icon="tab.icon" 
           :to="tab.link"
@@ -70,6 +70,26 @@ export default {
     return {
       leftDrawerOpen: false,
       essentialLinks: [
+        {
+          title: 'Play',
+          caption: 'to game screen',
+          icon: 'public',
+          link: '/'
+        },
+        {
+          title: 'Settings',
+          caption: 'settings',
+          icon: 'settings',
+          link: '/settings'
+        },
+        {
+          title: 'About',
+          caption: 'About this game',
+          icon: 'info',
+          link: '/about'
+        }
+      ],
+      footerLinks: [
         {
           title: 'Play',
           caption: 'to game screen',

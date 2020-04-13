@@ -3,6 +3,9 @@
     <q-form @submit.prevent="setAnswer" class="flex flex-center">
       
       <div class="q-pa-md">
+        <q-banner inline-actions class="text-white bg-orange q-mb-xs score-bar">
+          Your score: <b>{{score}}</b>
+        </q-banner>
         <div class="col-4">
           <q-img
             :src="selectedFlag.url"
@@ -462,5 +465,8 @@ export default {
 <style lang="scss">
   .answer-form {
     width: 43vh
+  }
+  .score-bar {
+    border-radius: 4px;
   }
 </style>
