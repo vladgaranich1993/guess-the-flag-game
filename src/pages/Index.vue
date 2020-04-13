@@ -21,7 +21,7 @@
 
         <div class="q-mt-md flex justify-between">
           <q-btn label="Check" type="submit" color="secondary"/>
-          <q-btn @click="initialGame" label="Reset" color="negative"/>
+          <q-btn @click="reset" label="Reset" color="negative"/>
         </div>
       </div>
 
@@ -547,6 +547,10 @@ export default {
         return this.countries[i]
       });
       this.selectedFlag = this.currentFlags[_.random(this.currentFlags.length - 1)]
+    },
+    reset() {
+      this.score = 0;
+      this.initialGame();
     }
   },
   created() {
