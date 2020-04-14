@@ -528,6 +528,118 @@ export default {
           value: 'Canada',
           continent: 'America',
           url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Canada.svg/2000px-Flag_of_Canada.svg.png'
+        },
+        {
+          id: 71,
+          label: 'Qatar',
+          value: 'Qatar',
+          continent: 'Asia',
+          url: 'https://cdn.countryflags.com/thumbs/qatar/flag-400.png'
+        },
+        {
+          id: 72,
+          label: 'Kenya',
+          value: 'Kenya',
+          continent: 'Africa',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54353572/kenya-flag-icon-free-download.jpg'
+        },
+        {
+          id: 73,
+          label: 'Cyprus',
+          value: 'Cyprus',
+          continent: 'Europe',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/53821848/cyprus-flag-icon-free-download.jpg'
+        },
+        {
+          id: 74,
+          label: 'Kyrgyzstan',
+          value: 'Kyrgyzstan',
+          continent: 'Asia',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/2000px-Flag_of_Kyrgyzstan.svg.png'
+        },
+        {
+          id: 75,
+          label: 'Kiribati',
+          value: 'Kiribati',
+          continent: 'Oceania',
+          url: 'https://cdn.countryflags.com/thumbs/kiribati/flag-400.png'
+        },
+        {
+          id: 76,
+          label: 'China',
+          value: 'China',
+          continent: 'Asia',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/53642776/china-flag-icon-free-download.jpg'
+        },
+        {
+          id: 77,
+          label: 'Colombia',
+          value: 'Colombia',
+          continent: 'America',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/53783904/colombia-flag-icon-free-download.jpg'
+        },
+        {
+          id: 78,
+          label: 'Comoros',
+          value: 'Comoros',
+          continent: 'Africa',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Flag_of_the_Comoros.svg/2000px-Flag_of_the_Comoros.svg.png'
+        },
+        {
+          id: 79,
+          label: 'Republic of the Congo',
+          value: 'Republic of the Congo',
+          continent: 'Africa',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_the_Republic_of_the_Congo.svg/1280px-Flag_of_the_Republic_of_the_Congo.svg.png'
+        },
+        {
+          id: 80,
+          label: 'Democratic Republic of the Congo',
+          value: 'Democratic Republic of the Congo',
+          continent: 'Africa',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/800px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png'
+        },
+        {
+          id: 81,
+          label: 'North Korea',
+          value: 'North Korea',
+          continent: 'Asia',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_North_Korea.svg/1600px-Flag_of_North_Korea.svg.png'
+        },
+        {
+          id: 82,
+          label: 'South Korea',
+          value: 'South Korea',
+          continent: 'Asia',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54354268/south-korea-flag-icon-free-download.jpg'
+        },
+        {
+          id: 83,
+          label: 'Costa Rica',
+          value: 'Costa Rica',
+          continent: 'America',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Costa_Rica_%28state%29.svg/1280px-Flag_of_Costa_Rica_%28state%29.svg.png'
+        },
+        {
+          id: 84,
+          label: 'Ivory Coast',
+          value: 'Ivory Coast',
+          continent: 'Africa',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54034622/cote-d-ivoire-flag-icon-free-download.jpg'
+        },
+        {
+          id: 85,
+          label: 'Cuba',
+          value: 'Cuba',
+          continent: 'America',
+          url: 'https://cdn.countryflags.com/thumbs/cuba/flag-400.png'
+        },
+        {
+          id: 86,
+          label: '',
+          value: '',
+          continent: '',
+          url: ''
         }
       ]
     }
@@ -537,7 +649,8 @@ export default {
       if(this.answer == this.selectedFlag.label) {
         this.score++
       } else {
-        this.score = 0
+        this.score = 0;
+        alert(`Incorrect! The right answer is ${this.selectedFlag.label}`);
       }
       this.initialGame()
     },
