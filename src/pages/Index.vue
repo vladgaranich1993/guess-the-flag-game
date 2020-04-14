@@ -4,8 +4,8 @@
       
       <div class="q-pa-md">
         <q-banner inline-actions class="text-white bg-orange q-mb-xs score-bar">
-          <div>Your score: <b>{{score}}</b></div>
-          <div>Your hiscore: <b>{{hiScore}}</b></div>
+          <div>Your Score: <b>{{score}}</b></div>
+          <div>Your Record: <b>{{highScore}}</b></div>
         </q-banner>
         <div class="col-4">
           <q-img
@@ -38,7 +38,7 @@ export default {
       answer: '',
       selectedFlag: '',
       score: 0,
-      hiScore: 0,
+      highScore: 0,
       currentFlags: [],
       countries: [
         { 
@@ -650,10 +650,10 @@ export default {
     setAnswer() {
       if(this.answer == this.selectedFlag.label) {
         this.score++
-        this.getHiscore()
+        this.getHighScore()
       } else {
         this.score = 0;
-        this.getHiscore()
+        this.getHighScore()
         // alert(`Incorrect! The right answer is ${this.selectedFlag.label}`);
       }
       this.initialGame()
@@ -669,24 +669,24 @@ export default {
       this.score = 0;
       this.initialGame();
     },
-    getHiscore() {
-      if(this.score > this.hiScore) {
-        this.hiScore = this.score;
+    getHighScore() {
+      if(this.score > this.highScore) {
+        this.highScore = this.score;
       }
     }
   },
   created() {
     this.initialGame()
-    this.getHiscore()
+    this.getHighScore()
   },
   mounted() {
-    if (localStorage.hiScore) {
-      this.hiScore = localStorage.hiScore;
+    if (localStorage.highScore) {
+      this.highScore = localStorage.highScore;
     }
   },
   watch: {
-    hiScore(newHiscore) {
-      localStorage.hiScore = newHiscore;
+    highScore(newHighScore) {
+      localStorage.highScore = newHighScore;
     }
   }
 }
