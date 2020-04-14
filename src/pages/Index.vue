@@ -4,7 +4,8 @@
       
       <div class="q-pa-md">
         <q-banner inline-actions class="text-white bg-orange q-mb-xs score-bar">
-          Your score: <b>{{score}}</b>
+          <div>Your score: <b>{{score}}</b></div>
+          <div>Your hiscore: <b>{{hiScore}}</b></div>
         </q-banner>
         <div class="col-4">
           <q-img
@@ -37,6 +38,7 @@ export default {
       answer: '',
       selectedFlag: '',
       score: 0,
+      hiScore: 0,
       currentFlags: [],
       countries: [
         { 
@@ -648,8 +650,10 @@ export default {
     setAnswer() {
       if(this.answer == this.selectedFlag.label) {
         this.score++
+        this.getHiscore()
       } else {
         this.score = 0;
+        this.getHiscore()
         // alert(`Incorrect! The right answer is ${this.selectedFlag.label}`);
       }
       this.initialGame()
@@ -664,10 +668,26 @@ export default {
     reset() {
       this.score = 0;
       this.initialGame();
+    },
+    getHiscore() {
+      if(this.score > this.hiScore) {
+        this.hiScore = this.score;
+      }
     }
   },
   created() {
     this.initialGame()
+    this.getHiscore()
+  },
+  mounted() {
+    if (localStorage.hiScore) {
+      this.hiScore = localStorage.hiScore;
+    }
+  },
+  watch: {
+    hiScore(newHiscore) {
+      localStorage.hiScore = newHiscore;
+    }
   }
 }
 </script>
