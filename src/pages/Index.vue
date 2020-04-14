@@ -650,7 +650,7 @@ export default {
         this.score++
       } else {
         this.score = 0;
-        alert(`Incorrect! The right answer is ${this.selectedFlag.label}`);
+        // alert(`Incorrect! The right answer is ${this.selectedFlag.label}`);
       }
       this.initialGame()
     },
