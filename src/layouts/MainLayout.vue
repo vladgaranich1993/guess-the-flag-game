@@ -12,7 +12,7 @@
         <q-toolbar-title>
           Guess the Flag App
         </q-toolbar-title>
-
+        
       </q-toolbar>
     </q-header>
 
