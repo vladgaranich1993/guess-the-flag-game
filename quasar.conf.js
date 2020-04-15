@@ -53,9 +53,12 @@ module.exports = function (ctx) {
         'QBtnToggle',
         'QBtnGroup',
         'QImg',
-        'QBanner'
+        'QBanner',
+        'QDialog'
       ],
-      directives: [],
+      directives: [
+        'ClosePopup'
+      ],
 
       // Quasar plugins
       plugins: []

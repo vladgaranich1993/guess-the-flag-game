@@ -26,6 +26,22 @@
         </div>
       </div>
 
+      <q-dialog v-model="alert">
+        <q-card>
+          <q-card-section>
+            <div class="text-h6">Incorrect!</div>
+          </q-card-section>
+
+          <q-card-section class="q-pt-none">
+            The right answer is {{selectedFlag.label}}
+          </q-card-section>
+
+          <q-card-actions align="right">
+            <q-btn flat label="New try" color="primary" @click="initialGame" v-close-popup />
+          </q-card-actions>
+        </q-card>
+      </q-dialog>
+
     </q-form>
   </q-page>
 </template>
@@ -39,6 +55,8 @@ export default {
       selectedFlag: '',
       score: 0,
       highScore: 0,
+      alert: false,
+      confirm: false,
       currentFlags: [],
       countries: [
         { 
@@ -650,13 +668,13 @@ export default {
     setAnswer() {
       if(this.answer == this.selectedFlag.label) {
         this.score++
-        this.getHighScore()
+        this.initialGame()
       } else {
         this.score = 0;
-        this.getHighScore()
-        // alert(`Incorrect! The right answer is ${this.selectedFlag.label}`);
+        this.alert = true;
       }
-      this.initialGame()
+      
+      this.getHighScore()
     },
     initialGame() {
       let idx = _.shuffle(_.range(0, this.countries.length - 1)).slice(0,5)
