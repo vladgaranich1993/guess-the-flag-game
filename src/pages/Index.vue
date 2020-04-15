@@ -37,7 +37,7 @@
           </q-card-section>
 
           <q-card-actions align="right">
-            <q-btn flat label="New try" color="primary" @click="initialGame" v-close-popup />
+            <q-btn flat label="Play again" color="primary" @click="initialGame" v-close-popup />
           </q-card-actions>
         </q-card>
       </q-dialog>
