@@ -2,7 +2,7 @@
   "name": "guess-the-flag-game",
   "version": "0.0.1",
   "description": "A Quasar Framework app",
-  "productName": "Quasar App",
+  "productName": "Geo Trainer",
   "cordovaId": "org.cordova.quasar.app",
   "capacitorId": "",
   "author": "Влад Гаранич <vladislav.garanich@gmail.com>",
