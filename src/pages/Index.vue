@@ -33,7 +33,7 @@
           </q-card-section>
 
           <q-card-section class="q-pt-none">
-            The right answer is {{selectedFlag.label}}
+            The right answer is <b>{{selectedFlag.label}}</b>
           </q-card-section>
 
           <q-card-actions align="right">
@@ -656,6 +656,181 @@ export default {
         },
         {
           id: 86,
+          label: 'Kuwait',
+          value: 'Kuwait',
+          continent: 'Asia',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54354784/kuwait-flag-icon-free-download.jpg'
+        },
+        {
+          id: 87,
+          label: 'Laos',
+          value: 'Laos',
+          continent: 'Asia',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54362798/laos-flag-icon-free-download.jpg'
+        },
+        {
+          id: 88,
+          label: 'Latvia',
+          value: 'Latvia',
+          continent: 'Europe',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54362990/latvia-flag-icon-free-download.jpg'
+        },
+        {
+          id: 89,
+          label: 'Lesotho',
+          value: 'Lesotho',
+          continent: 'Africa',
+          url: 'https://cdn.countryflags.com/thumbs/lesotho/flag-400.png'
+        },
+        {
+          id: 90,
+          label: 'Liberia',
+          value: 'Liberia',
+          continent: 'Africa',
+          url: 'https://cdn.countryflags.com/thumbs/liberia/flag-400.png'
+        },
+        {
+          id: 91,
+          label: 'Lebanon',
+          value: 'Lebanon',
+          continent: 'Asia',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/1280px-Flag_of_Lebanon.svg.png'
+        },
+        {
+          id: 92,
+          label: 'Libya',
+          value: 'Libya',
+          continent: 'Africa',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Libya.svg/800px-Flag_of_Libya.svg.png'
+        },
+        {
+          id: 93,
+          label: 'Lithuania',
+          value: 'Lithuania',
+          continent: 'Europe',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Lithuania.png/320px-Flag_of_Lithuania.png'
+        },
+        {
+          id: 94,
+          label: 'Liechtenstein',
+          value: 'Liechtenstein',
+          continent: 'Europe',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Flag_of_Liechtenstein.svg/2000px-Flag_of_Liechtenstein.svg.png'
+        },
+        {
+          id: 95,
+          label: 'Luxembourg',
+          value: 'Luxembourg',
+          continent: 'Europe',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Luxembourg.svg/1000px-Flag_of_Luxembourg.svg.png'
+        },
+        {
+          id: 96,
+          label: 'Mauritius',
+          value: 'Mauritius',
+          continent: 'Africa',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Mauritius.svg/1280px-Flag_of_Mauritius.svg.png'
+        },
+        {
+          id: 97,
+          label: 'Mauritania',
+          value: 'Mauritania',
+          continent: 'Africa',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Flag_of_Mauritania.svg/1280px-Flag_of_Mauritania.svg.png'
+        },
+        {
+          id: 98,
+          label: 'Madagascar',
+          value: 'Madagascar',
+          continent: 'Africa',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Madagascar.svg/1280px-Flag_of_Madagascar.svg.png'
+        },
+        {
+          id: 99,
+          label: 'Malawi',
+          value: 'Malawi',
+          continent: 'Africa',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Flag_of_Malawi.svg/1280px-Flag_of_Malawi.svg.png'
+        },
+        {
+          id: 100,
+          label: 'Malaysia',
+          value: 'Malaysia',
+          continent: 'Asia',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Malaysia.svg/1280px-Flag_of_Malaysia.svg.png'
+        },
+        {
+          id: 101,
+          label: 'Mali',
+          value: 'Mali',
+          continent: 'Africa',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54376274/mali-flag-icon-free-download.jpg'
+        },
+        {
+          id: 102,
+          label: 'Maldives',
+          value: 'Maldives',
+          continent: 'Asia',
+          url: 'https://cdn.countryflags.com/thumbs/maldives/flag-400.png'
+        },
+        {
+          id: 103,
+          label: 'Malta',
+          value: 'Malta',
+          continent: 'Europe',
+          url: 'https://cdn.countryflags.com/thumbs/malta/flag-400.png'
+        },
+        {
+          id: 104,
+          label: 'Morocco',
+          value: 'Morocco',
+          continent: 'Africa',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54592314/morocco-flag-icon-free-download.jpg'
+        },
+        {
+          id: 105,
+          label: 'Marshall Islands',
+          value: 'Marshall Islands',
+          continent: 'Oceania',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_the_Marshall_Islands.svg/2000px-Flag_of_the_Marshall_Islands.svg.png'
+        },
+        {
+          id: 106,
+          label: 'Mexico',
+          value: 'Mexico',
+          continent: 'America',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/1024px-Flag_of_Mexico.svg.png'
+        },
+        {
+          id: 107,
+          label: 'Mozambique',
+          value: 'Mozambique',
+          continent: 'Africa',
+          url: 'https://cdn.countryflags.com/thumbs/mozambique/flag-400.png'
+        },
+        {
+          id: 108,
+          label: 'Moldova',
+          value: 'Moldova',
+          continent: 'Europe',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/1280px-Flag_of_Moldova.svg.png'
+        },
+        {
+          id: 109,
+          label: 'Monaco',
+          value: 'Monaco',
+          continent: 'Europe',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/0/06/Flag_of_Monaco_%28state%29_FICTIONAL.png'
+        },
+        {
+          id: 110,
+          label: 'Mongolia',
+          value: 'Mongolia',
+          continent: 'Asia',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Mongolia.svg/2000px-Flag_of_Mongolia.svg.png'
+        },
+        {
+          id: 111,
           label: '',
           value: '',
           continent: '',
@@ -667,21 +842,21 @@ export default {
   methods: {
     setAnswer() {
       if(this.answer == this.selectedFlag.label) {
-        this.score++
-        this.initialGame()
+        this.score++;
+        this.initialGame();
       } else {
         this.score = 0;
         this.alert = true;
       }
       
-      this.getHighScore()
+      this.getHighScore();
     },
     initialGame() {
-      let idx = _.shuffle(_.range(0, this.countries.length - 1)).slice(0,5)
+      let idx = _.shuffle(_.range(0, this.countries.length - 1)).slice(0,5);
       this.currentFlags = idx.map(i => {
-        return this.countries[i]
+        return this.countries[i];
       });
-      this.selectedFlag = this.currentFlags[_.random(this.currentFlags.length - 1)]
+      this.selectedFlag = this.currentFlags[_.random(this.currentFlags.length - 1)];
     },
     reset() {
       this.score = 0;
@@ -694,8 +869,8 @@ export default {
     }
   },
   created() {
-    this.initialGame()
-    this.getHighScore()
+    this.initialGame();
+    this.getHighScore();
   },
   mounted() {
     if (localStorage.highScore) {
@@ -712,7 +887,7 @@ export default {
 
 <style lang="scss">
   .answer-form {
-    width: 43vh
+    width: 43vh;
   }
   .score-bar {
     border-radius: 4px;

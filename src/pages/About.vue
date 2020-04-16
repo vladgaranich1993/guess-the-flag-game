@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div padding>
     About
   </div>
 </template>

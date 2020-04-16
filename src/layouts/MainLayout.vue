@@ -10,9 +10,9 @@
         />
 
         <q-toolbar-title>
-          Guess the Flag App
+          <a class="header-title" href="#/">Guess the Flag App</a>
         </q-toolbar-title>
-        
+
       </q-toolbar>
     </q-header>
 
@@ -84,9 +84,8 @@ export default {
 </script>
 
 <style lang="scss">
-  .footer {
-    @media(min-width: 1024px) {
-      display: none;
-    }
+  .header-title {
+    color: #fff;
+    text-decoration: none;
   }
 </style>
