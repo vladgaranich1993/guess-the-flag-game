@@ -831,6 +831,111 @@ export default {
         },
         {
           id: 111,
+          label: 'Myanmar',
+          value: 'Myanmar',
+          continent: 'Asia',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54592564/myanmar-flag-icon-free-download.jpg'
+        },
+        {
+          id: 112,
+          label: 'Namibia',
+          value: 'Namibia',
+          continent: 'Africa',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Namibia.svg/2000px-Flag_of_Namibia.svg.png'
+        },
+        {
+          id: 113,
+          label: 'Nauru',
+          value: 'Nauru',
+          continent: 'Oceania',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Flag_of_Nauru.svg/2000px-Flag_of_Nauru.svg.png'
+        },
+        {
+          id: 114,
+          label: 'Nepal',
+          value: 'Nepal',
+          continent: 'Asia',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_Nepal_%28with_spacing%2C_aspect_ratio_4-3%29.svg/220px-Flag_of_Nepal_%28with_spacing%2C_aspect_ratio_4-3%29.svg.png'
+        },
+        {
+          id: 115,
+          label: 'Niger',
+          value: 'Niger',
+          continent: 'Africa',
+          url: 'https://pngimage.net/wp-content/uploads/2018/06/niger-flag-png-8.png'
+        },
+        {
+          id: 116,
+          label: 'Nigeria',
+          value: 'Nigeria',
+          continent: 'Africa',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/1280px-Flag_of_Nigeria.svg.png'
+        },
+        {
+          id: 117,
+          label: 'Netherlands',
+          value: 'Netherlands',
+          continent: 'Europe',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54693464/the-netherlands-flag-icon-free-download.jpg'
+        },
+        {
+          id: 118,
+          label: 'Nicaragua',
+          value: 'Nicaragua',
+          continent: 'America',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Nicaragua.svg/2000px-Flag_of_Nicaragua.svg.png'
+        },
+        {
+          id: 119,
+          label: 'New Zealand',
+          value: 'New Zealand',
+          continent: 'Oceania',
+          url: 'https://cdn.countryflags.com/thumbs/new-zealand/flag-400.png'
+        },
+        {
+          id: 120,
+          label: 'Norway',
+          value: 'Norway',
+          continent: 'Europe',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Flag_of_Norway_%283-2%29.svg/640px-Flag_of_Norway_%283-2%29.svg.png'
+        },
+        {
+          id: 121,
+          label: 'United Arab Emirates',
+          value: 'United Arab Emirates',
+          continent: 'Asia',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/2000px-Flag_of_the_United_Arab_Emirates.svg.png'
+        },
+        {
+          id: 122,
+          label: 'Oman',
+          value: 'Oman',
+          continent: 'Asia',
+          url: 'https://cdn.countryflags.com/thumbs/oman/flag-400.png'
+        },
+        {
+          id: 123,
+          label: 'Pakistan',
+          value: 'Pakistan',
+          continent: 'Asia',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Pakistan.png'
+        },
+        {
+          id: 124,
+          label: 'Palau',
+          value: 'Palau',
+          continent: 'Oceania',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Palau.svg/1280px-Flag_of_Palau.svg.png'
+        },
+        {
+          id: 125,
+          label: 'Panama',
+          value: 'Panama',
+          continent: 'America',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/640px-Flag_of_Panama.svg.png'
+        },
+        {
+          id: 126,
           label: '',
           value: '',
           continent: '',
