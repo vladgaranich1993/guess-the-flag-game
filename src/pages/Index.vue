@@ -936,6 +936,41 @@ export default {
         },
         {
           id: 126,
+          label: 'Papua New Guinea',
+          value: 'Papua New Guinea',
+          continent: 'Oceania',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Flag_of_Papua_New_Guinea.svg/2000px-Flag_of_Papua_New_Guinea.svg.png'
+        },
+        {
+          id: 127,
+          label: 'Paraguay',
+          value: 'Paraguay',
+          continent: 'America',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/2000px-Flag_of_Paraguay.svg.png'
+        },
+        {
+          id: 128,
+          label: 'Peru',
+          value: 'Peru',
+          continent: 'America',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Flag_of_Peru_%281825-1950%29.svg/1280px-Flag_of_Peru_%281825-1950%29.svg.png'
+        },
+        {
+          id: 129,
+          label: 'Poland',
+          value: 'Poland',
+          continent: 'Europe',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54940026/poland-flag-icon-free-download.jpg'
+        },
+        {
+          id: 130,
+          label: 'Portugal',
+          value: 'Portugal',
+          continent: 'Europe',
+          url: 'https://cdn.countryflags.com/thumbs/portugal/flag-400.png'
+        },
+        {
+          id: 131,
           label: '',
           value: '',
           continent: '',
