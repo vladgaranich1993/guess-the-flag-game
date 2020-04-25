@@ -971,6 +971,41 @@ export default {
         },
         {
           id: 131,
+          label: 'Russia',
+          value: 'Russia',
+          continent: 'Europe',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54940454/russia-flag-icon-free-download.jpg'
+        },
+        {
+          id: 132,
+          label: 'Rwanda',
+          value: 'Rwanda',
+          continent: 'Africa',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Rwanda.svg/2000px-Flag_of_Rwanda.svg.png'
+        },
+        {
+          id: 133,
+          label: 'Romania',
+          value: 'Romania',
+          continent: 'Europe',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54940396/romania-flag-icon-free-download.jpg'
+        },
+        {
+          id: 134,
+          label: 'El Salvador',
+          value: 'El Salvador',
+          continent: 'America',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/1280px-Flag_of_El_Salvador.svg.png'
+        },
+        {
+          id: 135,
+          label: 'Samoa',
+          value: 'Samoa',
+          continent: 'Oceania',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Samoa.svg/2880px-Flag_of_Samoa.svg.png'
+        },
+        {
+          id: 136,
           label: '',
           value: '',
           continent: '',
