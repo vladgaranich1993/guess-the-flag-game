@@ -1041,38 +1041,38 @@ export default {
         },
         {
           id: 141,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'Senegal',
+          value: 'Senegal',
+          continent: 'Africa',
+          url: 'https://cdn.countryflags.com/thumbs/senegal/flag-400.png'
         },
         {
           id: 142,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'Saint Vincent and the Grenadines',
+          value: 'Saint Vincent and the Grenadines',
+          continent: 'America',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flag_of_Saint_Vincent_and_the_Grenadines.svg/1280px-Flag_of_Saint_Vincent_and_the_Grenadines.svg.png'
         },
         {
           id: 143,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'Saint Kitts and Nevis',
+          value: 'Saint Kitts and Nevis',
+          continent: 'America',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Saint_Kitts_and_Nevis.svg/2000px-Flag_of_Saint_Kitts_and_Nevis.svg.png'
         },
         {
           id: 144,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'Saint Lucia',
+          value: 'Saint Lucia',
+          continent: 'America',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Saint_Lucia.svg/1280px-Flag_of_Saint_Lucia.svg.png'
         },
         {
           id: 145,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'Serbia',
+          value: 'Serbia',
+          continent: 'Europe',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54942182/serbia-flag-icon-free-download.jpg'
         },
         {
           id: 146,
