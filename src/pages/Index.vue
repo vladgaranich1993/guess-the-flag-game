@@ -1076,41 +1076,146 @@ export default {
         },
         {
           id: 146,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'Singapore',
+          value: 'Singapore',
+          continent: 'Asia',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/4320px-Flag_of_Singapore.svg.png'
         },
         {
           id: 147,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'Syria',
+          value: 'Syria',
+          continent: 'Asia',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Flag_of_Syria.svg/900px-Flag_of_Syria.svg.png'
         },
         {
           id: 148,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'Slovakia',
+          value: 'Slovakia',
+          continent: 'Europe',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54943274/slovakia-flag-icon-free-download.jpg'
         },
         {
           id: 149,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'Slovenia',
+          value: 'Slovenia',
+          continent: 'Europe',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54943414/slovenia-flag-icon-free-download.jpg'
         },
         {
           id: 150,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'United States',
+          value: 'United States',
+          continent: 'America',
+          url: 'https://images-na.ssl-images-amazon.com/images/I/61lCYSSxGTL._AC_SY606_.jpg'
         },
         {
           id: 151,
+          label: 'Solomon Islands',
+          value: 'Solomon Islands',
+          continent: 'Oceania',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Flag_of_the_Solomon_Islands.svg/1280px-Flag_of_the_Solomon_Islands.svg.png'
+        },
+        {
+          id: 152,
+          label: 'Somalia',
+          value: 'Somalia',
+          continent: 'Africa',
+          url: 'https://cdn.countryflags.com/thumbs/somalia/flag-400.png'
+        },
+        {
+          id: 153,
+          label: 'Sudan',
+          value: 'Sudan',
+          continent: 'Africa',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Sudan.svg/1280px-Flag_of_Sudan.svg.png'
+        },
+        {
+          id: 154,
+          label: 'Suriname',
+          value: 'Suriname',
+          continent: 'America',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Flag_of_Suriname.svg/1280px-Flag_of_Suriname.svg.png'
+        },
+        {
+          id: 155,
+          label: 'Sierra Leone',
+          value: 'Sierra Leone',
+          continent: 'Africa',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Sierra_Leone.svg/1280px-Flag_of_Sierra_Leone.svg.png'
+        },
+        {
+          id: 156,
+          label: 'Tajikistan',
+          value: 'Tajikistan',
+          continent: 'Asia',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54946456/tajikistan-flag-icon-free-download.jpg'
+        },
+        {
+          id: 157,
+          label: 'Thailand',
+          value: 'Thailand',
+          continent: 'Asia',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/1280px-Flag_of_Thailand.svg.png'
+        },
+        {
+          id: 158,
+          label: 'Tanzania',
+          value: 'Tanzania',
+          continent: 'Africa',
+          url: 'https://cdn.countryflags.com/thumbs/tanzania/flag-400.png'
+        },
+        {
+          id: 159,
+          label: 'Togo',
+          value: 'Togo',
+          continent: 'Africa',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_Togo.svg/2000px-Flag_of_Togo.svg.png'
+        },
+        {
+          id: 160,
+          label: 'Tonga',
+          value: 'Tonga',
+          continent: 'Oceania',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Tonga.svg/1280px-Flag_of_Tonga.svg.png'
+        },
+        {
+          id: 161,
+          label: 'Trinidad and Tobago',
+          value: 'Trinidad and Tobago',
+          continent: 'America',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Trinidad_and_Tobago.svg/2000px-Flag_of_Trinidad_and_Tobago.svg.png'
+        },
+        {
+          id: 162,
+          label: 'Tuvalu',
+          value: 'Tuvalu',
+          continent: 'Oceania',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tuvalu.svg/1280px-Flag_of_Tuvalu.svg.png'
+        },
+        {
+          id: 163,
+          label: 'Tunisia',
+          value: 'Tunisia',
+          continent: 'Africa',
+          url: 'https://cdn.countryflags.com/thumbs/tunisia/flag-400.png'
+        },
+        {
+          id: 164,
+          label: 'Turkmenistan',
+          value: 'Turkmenistan',
+          continent: 'Asia',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/7/72/Turkmenistan_flag_300.png'
+        },
+        {
+          id: 165,
+          label: 'Turkey',
+          value: 'Turkey',
+          continent: 'Europe',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54949672/turkey-flag-icon-free-download.jpg'
+        },
+        {
+          id: 166,
           label: '',
           value: '',
           continent: '',
