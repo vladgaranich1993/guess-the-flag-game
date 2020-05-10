@@ -1216,38 +1216,38 @@ export default {
         },
         {
           id: 166,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'Uganda',
+          value: 'Uganda',
+          continent: 'Africa',
+          url: 'https://cdn.countryflags.com/thumbs/uganda/flag-400.png'
         },
         {
           id: 167,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'Uzbekistan',
+          value: 'Uzbekistan',
+          continent: 'Asia',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/0/0b/Flag_of_Uzbekistan.png'
         },
         {
           id: 168,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'Ukraine',
+          value: 'Ukraine',
+          continent: 'Europe',
+          url: 'https://cdn.countryflags.com/thumbs/ukraine/flag-400.png'
         },
         {
           id: 169,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'Uruguay',
+          value: 'Uruguay',
+          continent: 'America',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/1280px-Flag_of_Uruguay.svg.png'
         },
         {
           id: 170,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'Federated States of Micronesia',
+          value: 'Federated States of Micronesia',
+          continent: 'Oceania',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Flag_of_the_Federated_States_of_Micronesia.svg/760px-Flag_of_the_Federated_States_of_Micronesia.svg.png'
         },
         {
           id: 171,
