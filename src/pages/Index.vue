@@ -1251,6 +1251,41 @@ export default {
         },
         {
           id: 171,
+          label: 'Fiji',
+          value: 'Fiji',
+          continent: 'Oceania',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Fiji.svg/1280px-Flag_of_Fiji.svg.png'
+        },
+        {
+          id: 172,
+          label: 'Philippines',
+          value: 'Philippines',
+          continent: 'Asia',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/1280px-Flag_of_the_Philippines.svg.png'
+        },
+        {
+          id: 173,
+          label: 'Finland',
+          value: 'Finland',
+          continent: 'Europe',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/1/10/Flag_of_Finland.png'
+        },
+        {
+          id: 174,
+          label: 'France',
+          value: 'France',
+          continent: 'Europe',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/6/62/Flag_of_France.png'
+        },
+        {
+          id: 175,
+          label: 'Croatia',
+          value: 'Croatia',
+          continent: 'Europe',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/53815868/croatia-flag-image-free-download.jpg'
+        },
+        {
+          id: 176,
           label: '',
           value: '',
           continent: '',
