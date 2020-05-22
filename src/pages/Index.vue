@@ -1321,38 +1321,38 @@ export default {
         },
         {
           id: 181,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'Switzerland',
+          value: 'Switzerland',
+          continent: 'Europe',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Civil_Ensign_of_Switzerland.svg/1500px-Civil_Ensign_of_Switzerland.svg.png'
         },
         {
           id: 182,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'Sweden',
+          value: 'Sweden',
+          continent: 'Europe',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54945896/sweden-flag-image-free-download.jpg'
         },
         {
           id: 183,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'Sri Lanka',
+          value: 'Sri Lanka',
+          continent: 'Asia',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54944340/sri-lanka-flag-icon-free-download.jpg'
         },
         {
           id: 184,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'Ecuador',
+          value: 'Ecuador',
+          continent: 'America',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/53851066/ecuador-flag-image-free-download.jpg'
         },
         {
           id: 185,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'Equatorial Guinea',
+          value: 'Equatorial Guinea',
+          continent: 'Africa',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Equatorial_Guinea.svg/1280px-Flag_of_Equatorial_Guinea.svg.png'
         },
         {
           id: 186,
