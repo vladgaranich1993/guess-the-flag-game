@@ -1356,38 +1356,38 @@ export default {
         },
         {
           id: 186,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'Eritrea',
+          value: 'Eritrea',
+          continent: 'Africa',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Flag_of_Eritrea.svg/1024px-Flag_of_Eritrea.svg.png'
         },
         {
           id: 187,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'Eswatini',
+          value: 'Eswatini',
+          continent: 'Africa',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Eswatini.svg/800px-Flag_of_Eswatini.svg.png'
         },
         {
           id: 188,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'Estonia',
+          value: 'Estonia',
+          continent: 'Europe',
+          url: 'https://cdn.countryflags.com/thumbs/estonia/flag-400.png'
         },
         {
           id: 189,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'Ethiopia',
+          value: 'Ethiopia',
+          continent: 'Africa',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/53992256/ethiopia-flag-image-free-download.jpg'
         },
         {
           id: 190,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'South Africa',
+          value: 'South Africa',
+          continent: 'Africa',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54943642/south-africa-flag-icon-free-download.jpg'
         },
         {
           id: 191,
