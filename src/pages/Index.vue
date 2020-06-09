@@ -1391,24 +1391,24 @@ export default {
         },
         {
           id: 191,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'South Sudan',
+          value: 'South Sudan',
+          continent: 'Africa',
+          url: 'https://cdn.countryflags.com/thumbs/south-sudan/flag-400.png'
         },
         {
           id: 192,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'Jamaica',
+          value: 'Jamaica',
+          continent: 'America',
+          url: 'https://cdn.countryflags.com/thumbs/jamaica/flag-400.png'
         },
         {
           id: 193,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'Japan',
+          value: 'Japan',
+          continent: 'Asia',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54037182/japan-flag-icon-free-download.jpg'
         }
       ]
     }
