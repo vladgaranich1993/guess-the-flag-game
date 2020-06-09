@@ -1043,10 +1043,339 @@ export default {
         },
         {
           id: 146,
-          label: '',
-          value: '',
-          continent: '',
-          url: ''
+          label: 'Singapore',
+          value: 'Singapore',
+          continent: 'Asia',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/4320px-Flag_of_Singapore.svg.png'
+        },
+        {
+          id: 147,
+          label: 'Syria',
+          value: 'Syria',
+          continent: 'Asia',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Flag_of_Syria.svg/900px-Flag_of_Syria.svg.png'
+        },
+        {
+          id: 148,
+          label: 'Slovakia',
+          value: 'Slovakia',
+          continent: 'Europe',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54943274/slovakia-flag-icon-free-download.jpg'
+        },
+        {
+          id: 149,
+          label: 'Slovenia',
+          value: 'Slovenia',
+          continent: 'Europe',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54943414/slovenia-flag-icon-free-download.jpg'
+        },
+        {
+          id: 150,
+          label: 'United States',
+          value: 'United States',
+          continent: 'America',
+          url: 'https://images-na.ssl-images-amazon.com/images/I/61lCYSSxGTL._AC_SY606_.jpg'
+        },
+        {
+          id: 151,
+          label: 'Solomon Islands',
+          value: 'Solomon Islands',
+          continent: 'Oceania',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Flag_of_the_Solomon_Islands.svg/1280px-Flag_of_the_Solomon_Islands.svg.png'
+        },
+        {
+          id: 152,
+          label: 'Somalia',
+          value: 'Somalia',
+          continent: 'Africa',
+          url: 'https://cdn.countryflags.com/thumbs/somalia/flag-400.png'
+        },
+        {
+          id: 153,
+          label: 'Sudan',
+          value: 'Sudan',
+          continent: 'Africa',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Sudan.svg/1280px-Flag_of_Sudan.svg.png'
+        },
+        {
+          id: 154,
+          label: 'Suriname',
+          value: 'Suriname',
+          continent: 'America',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Flag_of_Suriname.svg/1280px-Flag_of_Suriname.svg.png'
+        },
+        {
+          id: 155,
+          label: 'Sierra Leone',
+          value: 'Sierra Leone',
+          continent: 'Africa',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Sierra_Leone.svg/1280px-Flag_of_Sierra_Leone.svg.png'
+        },
+        {
+          id: 156,
+          label: 'Tajikistan',
+          value: 'Tajikistan',
+          continent: 'Asia',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54946456/tajikistan-flag-icon-free-download.jpg'
+        },
+        {
+          id: 157,
+          label: 'Thailand',
+          value: 'Thailand',
+          continent: 'Asia',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/1280px-Flag_of_Thailand.svg.png'
+        },
+        {
+          id: 158,
+          label: 'Tanzania',
+          value: 'Tanzania',
+          continent: 'Africa',
+          url: 'https://cdn.countryflags.com/thumbs/tanzania/flag-400.png'
+        },
+        {
+          id: 159,
+          label: 'Togo',
+          value: 'Togo',
+          continent: 'Africa',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_Togo.svg/2000px-Flag_of_Togo.svg.png'
+        },
+        {
+          id: 160,
+          label: 'Tonga',
+          value: 'Tonga',
+          continent: 'Oceania',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Tonga.svg/1280px-Flag_of_Tonga.svg.png'
+        },
+        {
+          id: 161,
+          label: 'Trinidad and Tobago',
+          value: 'Trinidad and Tobago',
+          continent: 'America',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Trinidad_and_Tobago.svg/2000px-Flag_of_Trinidad_and_Tobago.svg.png'
+        },
+        {
+          id: 162,
+          label: 'Tuvalu',
+          value: 'Tuvalu',
+          continent: 'Oceania',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tuvalu.svg/1280px-Flag_of_Tuvalu.svg.png'
+        },
+        {
+          id: 163,
+          label: 'Tunisia',
+          value: 'Tunisia',
+          continent: 'Africa',
+          url: 'https://cdn.countryflags.com/thumbs/tunisia/flag-400.png'
+        },
+        {
+          id: 164,
+          label: 'Turkmenistan',
+          value: 'Turkmenistan',
+          continent: 'Asia',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/7/72/Turkmenistan_flag_300.png'
+        },
+        {
+          id: 165,
+          label: 'Turkey',
+          value: 'Turkey',
+          continent: 'Europe',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54949672/turkey-flag-icon-free-download.jpg'
+        },
+        {
+          id: 166,
+          label: 'Uganda',
+          value: 'Uganda',
+          continent: 'Africa',
+          url: 'https://cdn.countryflags.com/thumbs/uganda/flag-400.png'
+        },
+        {
+          id: 167,
+          label: 'Uzbekistan',
+          value: 'Uzbekistan',
+          continent: 'Asia',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/0/0b/Flag_of_Uzbekistan.png'
+        },
+        {
+          id: 168,
+          label: 'Ukraine',
+          value: 'Ukraine',
+          continent: 'Europe',
+          url: 'https://cdn.countryflags.com/thumbs/ukraine/flag-400.png'
+        },
+        {
+          id: 169,
+          label: 'Uruguay',
+          value: 'Uruguay',
+          continent: 'America',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/1280px-Flag_of_Uruguay.svg.png'
+        },
+        {
+          id: 170,
+          label: 'Federated States of Micronesia',
+          value: 'Federated States of Micronesia',
+          continent: 'Oceania',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Flag_of_the_Federated_States_of_Micronesia.svg/760px-Flag_of_the_Federated_States_of_Micronesia.svg.png'
+        },
+        {
+          id: 171,
+          label: 'Fiji',
+          value: 'Fiji',
+          continent: 'Oceania',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Fiji.svg/1280px-Flag_of_Fiji.svg.png'
+        },
+        {
+          id: 172,
+          label: 'Philippines',
+          value: 'Philippines',
+          continent: 'Asia',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/1280px-Flag_of_the_Philippines.svg.png'
+        },
+        {
+          id: 173,
+          label: 'Finland',
+          value: 'Finland',
+          continent: 'Europe',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/1/10/Flag_of_Finland.png'
+        },
+        {
+          id: 174,
+          label: 'France',
+          value: 'France',
+          continent: 'Europe',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/6/62/Flag_of_France.png'
+        },
+        {
+          id: 175,
+          label: 'Croatia',
+          value: 'Croatia',
+          continent: 'Europe',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/53815868/croatia-flag-image-free-download.jpg'
+        },
+        {
+          id: 176,
+          label: 'Central African Republic',
+          value: 'Central African Republic',
+          continent: 'Africa',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/e/e6/Flag_of_the_Central_African_Republic.png'
+        },
+        {
+          id: 177,
+          label: 'Chad',
+          value: 'Chad',
+          continent: 'Africa',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Flag_of_Chad.svg/1280px-Flag_of_Chad.svg.png'
+        },
+        {
+          id: 178,
+          label: 'Montenegro',
+          value: 'Montenegro',
+          continent: 'Europe',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54591718/montenegro-flag-icon-free-download.jpg'
+        },
+        {
+          id: 179,
+          label: 'Czech Republic',
+          value: 'Czech Republic',
+          continent: 'Europe',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/53825012/the-czech-republic-flag-icon-free-download.jpg'
+        },
+        {
+          id: 180,
+          label: 'Chile',
+          value: 'Chile',
+          continent: 'America',
+          url: 'https://cdn.countryflags.com/thumbs/chile/flag-400.png'
+        },
+        {
+          id: 181,
+          label: 'Switzerland',
+          value: 'Switzerland',
+          continent: 'Europe',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Civil_Ensign_of_Switzerland.svg/1500px-Civil_Ensign_of_Switzerland.svg.png'
+        },
+        {
+          id: 182,
+          label: 'Sweden',
+          value: 'Sweden',
+          continent: 'Europe',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54945896/sweden-flag-image-free-download.jpg'
+        },
+        {
+          id: 183,
+          label: 'Sri Lanka',
+          value: 'Sri Lanka',
+          continent: 'Asia',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54944340/sri-lanka-flag-icon-free-download.jpg'
+        },
+        {
+          id: 184,
+          label: 'Ecuador',
+          value: 'Ecuador',
+          continent: 'America',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/53851066/ecuador-flag-image-free-download.jpg'
+        },
+        {
+          id: 185,
+          label: 'Equatorial Guinea',
+          value: 'Equatorial Guinea',
+          continent: 'Africa',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Equatorial_Guinea.svg/1280px-Flag_of_Equatorial_Guinea.svg.png'
+        },
+        {
+          id: 186,
+          label: 'Eritrea',
+          value: 'Eritrea',
+          continent: 'Africa',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Flag_of_Eritrea.svg/1024px-Flag_of_Eritrea.svg.png'
+        },
+        {
+          id: 187,
+          label: 'Eswatini',
+          value: 'Eswatini',
+          continent: 'Africa',
+          url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Eswatini.svg/800px-Flag_of_Eswatini.svg.png'
+        },
+        {
+          id: 188,
+          label: 'Estonia',
+          value: 'Estonia',
+          continent: 'Europe',
+          url: 'https://cdn.countryflags.com/thumbs/estonia/flag-400.png'
+        },
+        {
+          id: 189,
+          label: 'Ethiopia',
+          value: 'Ethiopia',
+          continent: 'Africa',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/53992256/ethiopia-flag-image-free-download.jpg'
+        },
+        {
+          id: 190,
+          label: 'South Africa',
+          value: 'South Africa',
+          continent: 'Africa',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54943642/south-africa-flag-icon-free-download.jpg'
+        },
+        {
+          id: 191,
+          label: 'South Sudan',
+          value: 'South Sudan',
+          continent: 'Africa',
+          url: 'https://cdn.countryflags.com/thumbs/south-sudan/flag-400.png'
+        },
+        {
+          id: 192,
+          label: 'Jamaica',
+          value: 'Jamaica',
+          continent: 'America',
+          url: 'https://cdn.countryflags.com/thumbs/jamaica/flag-400.png'
+        },
+        {
+          id: 193,
+          label: 'Japan',
+          value: 'Japan',
+          continent: 'Asia',
+          url: 'https://cdn.webshopapp.com/shops/94414/files/54037182/japan-flag-icon-free-download.jpg'
         }
       ]
     }
